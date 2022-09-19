@@ -37,7 +37,7 @@ function DetailAvatar({ hp, atk, def, satk, sdef, spd, id, name }: Props) {
           objectFit="contain"
           layout="fill"
         />
-        <h3 className="absolute bottom-0 -translate-y-3 text-center text-white group-hover:text-black capitalize font-emotion tracking-wider w-full transition-all">
+        <h3 className="absolute bottom-0 translate-y-2 text-center text-white group-hover:text-black capitalize font-emotion tracking-wider w-full transition-all">
           {name}
         </h3>
       </div>
