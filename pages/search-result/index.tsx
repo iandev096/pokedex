@@ -92,10 +92,10 @@ function SearchResult({}: Props) {
           </div>
         </Stage>
 
-        <div className="h-20 flex justify-between items-center">
+        {/* <div className="h-20 flex justify-between items-center">
           <Button>Prev</Button>
           <Button>Next</Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
