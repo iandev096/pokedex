@@ -48,6 +48,7 @@ function Pokemon({
   pageCount,
   pokemons,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  console.log("pageCount::", pageCount);
   const { query, push } = useRouter();
   const PAGE = Number(query.page);
 
